@@ -1,7 +1,7 @@
 {
-  "name": "winotsite",
+  "name": "crystalclean",
   "version": "1.0.0",
-  "description": "wi not stop website",
+  "description": "crystal clean website",
   "main": "index.html",
   "dependencies": {
     "grunt": "^1.0.1"

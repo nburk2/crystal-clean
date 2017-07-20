@@ -4,20 +4,32 @@ header {
   margin-top: 80px;
 }
 
+.navbar-inner{
+    position:relative;
+    padding-left:70px;
+}
 
-header nav li a {
-  font-size: 18px;
-  color: white !important;
+.navbar .brand {
+    margin-left: 0px;
+    position: absolute;
+    left:85%;
+    top: 0px;
+    padding: 10px;
 }
 
 header nav li.active {
-  background-color:#025aa5;
-  border-radius:10px;
+  background-color: lightgrey;
+  border-radius: 15px;
+}
+
+header nav li a {
+  font-size: 18px;
+  color: #0275d8 !important;
 }
 
 header nav li:hover {
-  background-color:#025aa5;
-  border-radius:10px;
+  background-color: lightgrey;
+  border-radius: 15px;
 }
 
 header nav a .main-logo {
@@ -30,6 +42,11 @@ header nav a .main-logo {
     display: block;
     margin-top: 0;
     /*remove navbar gap so it doesn't close*/
+ }
+
+ header .dropdown-item:hover {
+   background-color: lightgrey;
+   border-radius: 15px;
  }
 
 .top-section {
@@ -48,6 +65,10 @@ header nav a .main-logo {
   background-attachment:fixed;
   /*background-size: cover;*/
   position: relative;
+}
+
+section.last-section {
+  margin-bottom: 71px;
 }
 
 /*
@@ -183,6 +204,7 @@ li.borderless {
   border: 0 none;
 }
 
-header .dropdown-item:hover {
-  color:#025aa5 !important;
+nav .mobile-bottom-nav li {
+  display:inline;
+  padding: 10px;
 }
