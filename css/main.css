@@ -208,3 +208,7 @@ nav .mobile-bottom-nav li {
   display:inline;
   padding: 10px;
 }
+
+tr td .fc-state-highlight {
+    background-color: #ec971f !important;
+}

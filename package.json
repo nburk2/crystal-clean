@@ -4,7 +4,9 @@
   "description": "crystal clean website",
   "main": "index.html",
   "dependencies": {
-    "grunt": "^1.0.1"
+    "fullcalendar": "^3.4.0",
+    "grunt": "^1.0.1",
+    "moment": "^2.18.1"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
