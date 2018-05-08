@@ -92,112 +92,11 @@
         <div class="wow bounceIn" style="text-align:center;">
           <br>
             <h2 class="text-primary"><i class="fa fa-envelope"></i> Contact Us</h2>
-            <p class="lead text-primary">Provide your name, email and any questions you have for us!</p>
+            <p class="lead text-primary">Thank you! Your request has been submitted.</p>
         </div>
 
         <div class="status alert alert-success" style="display: none"></div>
 
-        <form id="contact-form" class="form-control">
-          <div class="row">
-            <div class="col-sm-5">
-              <div class="form-group">
-                  <label>Name *</label>
-                  <input type="text" id="name-input" name="name" class="form-control" required="required">
-              </div>
-            </div>
-            <div class="col-sm-5">
-              <div class="form-group">
-                  <label>Your Email *</label>
-                  <input type="email" id="email-input" name="email" class="form-control" required="required">
-              </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="form-group">
-                    <label>Phone #</label>
-                    <input type="number" id="number-input" class="form-control">
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="form-group">
-                  <label>Organization</label>
-                  <select name="organization" id="organization-input" class="form-control">
-          					<option value="VA" selected="">Commercial</option>
-          					<option value="WY">Residential</option>
-          		    </select>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="form-group">
-                  <label>Service Type</label>
-                  <select name="serviceType" id="serviceType-input" class="form-control">
-          					<option value="VA" selected="">Dryer Vent Cleaning</option>
-          					<option value="WY">Duct Cleaning</option>
-            		  </select>
-                </div>
-            </div>
-            <div class="col-sm-12">
-                <div class="form-group">
-                    <label>Questions/Comments *</label>
-                    <textarea name="message" id="message-input" required="required" class="form-control" rows="8"></textarea>
-                </div>
-                <div class="form-group">
-                    <button type="submit" class="btn btn-primary btn-lg" required="required">Submit Message</button>
-                </div>
-            </div>
-          </div>
-        </form>
-      </div>
-    </section>
-
-    <section class="bg-primary backdrop-logo">
-      <div class="container">
-      <div class="row" style="padding-top:50px;padding-bottom:50px;">
-        <div class="col-md-12">
-          <div class="card">
-            <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
-            <iframe class="" frameborder="0" height="300" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d24890.34199510579!2d-77.464742!3d38.756989!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b65b88ad0e1485%3A0x340876355727c406!2s9108+Centreville+Rd%2C+Manassas%2C+VA+20110!5e0!3m2!1sen!2sus!4v1422295836849" style="border:0" width="100%"></iframe>
-            <div class="card-block">
-              <h4 class="card-title text-center">Main Office:</h4>
-              <p class="text-center">9108 Centreville Road</p>
-              <p class="text-center">Manassas, VA 20110</p>
-              <p class="text-center">(703) 368-6568</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    </section>
-
-    <section class="top-section last-section">
-      <div class="container">
-        <div class="row" style="padding-top:20px;">
-          <div class="push-sm-3 col-sm-6 text-center">
-            <!-- <h1 class="display-3 text-center text-primary"> -->
-              <!-- <i class="fa fa-building-o"></i> -->
-              <a href="#">
-                <img src="images/partners/angies-review.jpg">
-                <br>
-                angieslist.com/review/8219822
-              </a>
-            <!-- </h1> -->
-          </div>
-        </div>
-
-        <hr style="border-color:#025aa5;">
-        <div class="row">
-          <div class="push-1 col-11">
-            <div class="partners">
-              <ul>
-                  <li> <a href="http://www.bbb.org/washington-dc-eastern-pa/business-reviews/duct-cleaning/crystal-clean-duct-service-in-manassas-va-23002592/"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms" src="images/partners/bbb.png" style="max-width:100%;"></a></li>
-                  <li style="padding-top:25px"> <a href="http://angieslist.com/"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms" src="images/partners/angies-list.png" style="max-width:100%;"></a></li>
-                  <li style="padding-top:5px;"> <a href="http://nadca.com/"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms" src="images/partners/nadca.png" style="max-width:100%;"></a></li>
-                  <li style="padding-top:15px;"> <a href="http://csia.org/"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1200ms" src="images/partners/cisa.png" style="max-width:100%;"></a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <hr style="border-color:#025aa5;">
-        <br>
       </div>
     </section>
 
@@ -269,44 +168,6 @@
     <script src="js/jquery.isotope.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/wow.min.js"></script>
-
-    <script type="text/javascript">
-      $(document).ready(function() {
-        // Contact form
-        var form = $('#contact-form');
-        form.submit(function(event){
-          event.preventDefault();
-          var form_status = $('<div class="form_status"></div>');
-          var data = {
-                        name: $('#name-input').val(),
-                        website: "CrystalClean",
-                        email: $('#email-input').val(),
-                        number: $('#number-input').val(),
-                        organization: $('#organization-input').val(),
-                        serviceType: $('#serviceType-input').val(),
-                        message: $('#message-input').val()
-                      }
-          $.ajax({
-            type: 'POST',
-            url: 'https://ibkxdho8ce.execute-api.us-east-1.amazonaws.com/prod/crystal-clean-email',
-            dataType: 'json',
-            contentType: 'application/json',
-            data: JSON.stringify(data),
-
-            beforeSend: function(){
-              form.prepend( form_status.html('<p><i class="fa fa-spinner fa-spin" style="color:green;"></i> Email is sending...</p>').fadeIn() );
-          },
-          success: function (data) {
-            form_status.html('<p class="text-success"> success</p>').delay(3000).fadeOut();
-            window.location.replace("contactsuccess.html");
-          },
-          error: function (data) {
-            form_status.html('<p class="text-danger"> message failed</p>').delay(3000).fadeOut();
-          }
-          });
-        });
-      });
-    </script>
 
 </body>
 </html>

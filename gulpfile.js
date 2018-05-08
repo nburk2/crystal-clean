@@ -66,7 +66,7 @@ gulp.task('minify-js', function() {
 
 gulp.task('replace-path', function() {
   gulp.src(['index.html','about-us.html','air-duct-cleaning.html',
-            'areas-we-serve.html','commercial.html','contact.html',
+            'areas-we-serve.html','commercial.html','contact.html','contactsuccess.html',
             'dryer-vent-cleaning.html','testimonials.html','toknow.html',
             'blog.html'])
     .pipe(replace(/bootstrap\.min\.css/g, 'all.css'))
