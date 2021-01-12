@@ -68,7 +68,7 @@ gulp.task('replace-path', function() {
   return gulp.src(['index.html','about-us.html','air-duct-cleaning.html',
             'areas-we-serve.html','commercial.html','contact.html','contactsuccess.html',
             'dryer-vent-cleaning.html','testimonials.html','toknow.html',
-            'blog.html'])
+            'blog.html','heating-air-conditioning.html','air-scrub.html'])
     .pipe(replace(/bootstrap\.min\.css/g, 'all.css'))
     .pipe(replace(/<link href="css\/font-awesome\.min\.css" rel="stylesheet">/g, ''))
     .pipe(replace(/<link href="css\/animate\.min\.css" rel="stylesheet">/g, ''))
